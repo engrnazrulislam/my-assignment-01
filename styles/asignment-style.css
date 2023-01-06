@@ -1,0 +1,67 @@
+*{
+    margin:0;
+}
+/* Apply Header Section Styles */
+.top-header{
+    background-color:gray;
+    background-image:url(../images/banner/banner1.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1600px;
+    height: 800px;
+}
+.title-div{
+    display: flex;
+    justify-content:right;
+    text-align: right;
+    padding-right:230px;
+    padding-top:216px;
+}
+.title-text{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 70px;
+    text-align: right;
+    width:525px;
+    height:228px;
+}
+.header-text-div{
+    display: flex;
+    justify-content: right;
+    padding-right:230px;
+    padding-top:20px;
+}
+.header-text{
+    text-align: right;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    width:500px;
+    height:78px;
+    color:#444343;
+}
+.header-btn-div{
+    display: flex;
+    justify-content: right;
+    padding-right:230px;
+}
+.header-btn{
+    width: 160px;
+    height: 64px;
+    background-color: #F15B22; 
+    border-radius: 5px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color:white;
+    border-color: lightcoral;
+}
+/* Apply Main Section Styles */
