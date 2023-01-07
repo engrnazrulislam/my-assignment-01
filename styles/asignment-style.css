@@ -151,6 +151,8 @@
     align-items: center;
     padding-top:130px;
     padding-left:230px;
+    font-family: 'Work Sans';
+    font-style: normal;
 }
 .sec3-img{
     border-radius: 8px;
@@ -167,8 +169,6 @@
     position: absolute;
     padding-top:10px;
     padding-left:64px;
-    font-family: 'Work Sans';
-    font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
@@ -181,13 +181,86 @@
     margin-top:177px;
     margin-left: 64px;
     width:160px;
-    height: 64px;
+    height: 60px;
     border-radius: 5px;
-    font-family: 'Work Sans';
-    font-style: normal;
+    border-color: #FFFFFF;
     font-weight: 600;
     font-size: 20px;
-    line-height: 23px;
+    text-align: center;
+    color: #F15B22;
+}
+
+/* Apply Styles on bottom footer section */
+.bottom-footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #151414;
+    height:577px;
+    width: 1600px;
+    margin-top: 130px;
+    font-family: 'Work Sans';
+    font-style: normal;
+}
+.footer-div1{
+    padding-top:130px;
+}
+.footer-div2{
+    padding-top: 130px;
+}
+/* Footer Future Section */
+.footer-h3{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+}
+.footer-p1{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    width: 485px;
+    height: 78px;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.footer-p2,.footer-p3{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding:5px 0px;
+}
+.footer-ul{
+    display: flex;
+    justify-content:left;
+    list-style-type: none;
+    padding-top:20px;
+    padding-left:0px;
+}
+.footer-ul > li{
+    padding:0px 10px;
+}
+/* Footer Subscription Section */
+.footer-subs-h3{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+.footer-input-email{
+    width: 325px;
+    height: 64px
+}
+.footer-subs-btn{
+    margin-top:20px;
+    width:170px;
+    height: 60px;
+    border-radius: 5px;
+    border-color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
     text-align: center;
     color: #F15B22;
 }
