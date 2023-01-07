@@ -76,7 +76,7 @@
     padding-left:30px;
 }
 .main-section-text-div{
-    padding-left:50px;
+    padding-left:85px;
 }
 .main-text-h3{
     font-family: 'Work Sans';
@@ -88,6 +88,7 @@
     width:288px;
     height:94px;
     text-align: left;
+    padding-top:50px;
 }
 .main-text-p{
     font-family: 'Work Sans';
@@ -118,4 +119,28 @@
 .section2-title-text-h2{
     text-align: center;
     padding-top:130px;
+    padding-left:100px;
+}
+.main-section02-div > ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type:none;
+    text-align: center;
+    align-items: center;
+}
+.sec2-ul{
+    padding-top:50px;
+}
+.sec2-sub-ul{
+    list-style-type:none;
+    padding-top:20px;
+    color: #737272;
+
+}
+.sec2-sub-li{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size:20px;
+    color: #151414;
 }
