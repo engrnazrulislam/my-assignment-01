@@ -65,3 +65,57 @@
     border-color: lightcoral;
 }
 /* Apply Main Section Styles */
+.main-section01{
+    padding-top:940px;
+    padding-left:206px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.person-img{
+    padding-left:30px;
+}
+.main-section-text-div{
+    padding-left:50px;
+}
+.main-text-h3{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    width:288px;
+    height:94px;
+    text-align: left;
+}
+.main-text-p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 416px;
+    height: 104px;
+    padding-right: 310px;
+    padding-top:10px;
+    color: #444343;
+}
+.main-list-ul{
+    list-style-type:square;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+/* Main Part Section 2 */
+.main-section02{
+    align-items: center;
+    padding:0px 230px;
+}
+.section2-title-text-h2{
+    text-align: center;
+    padding-top:130px;
+}
